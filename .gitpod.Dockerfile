@@ -11,7 +11,7 @@ FROM gitpod/workspace-full
 # Install custom tools, runtime, etc.
 RUN brew install fzf
 RUN brew install meson ninja  
-RUN apt install bc \
+RUN sudo apt install bc \
             bison \
             ca-certificates \
             ccache \
